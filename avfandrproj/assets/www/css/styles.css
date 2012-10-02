@@ -1,0 +1,156 @@
+/*
+	Alexander Herrera
+	AVF 1209
+	Styles page CSS
+*/
+body {
+	background-color: #33A1DE;
+}
+#demoAppCont {
+	width: 200px;
+	height: 300px;
+	background-color: #8EA4B1;
+	color:#E9F5FB;
+	margin: auto;
+}
+#picJun {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#orgApText {
+	text-align: center;	
+	color:#E9F5FB;
+}
+#demoHead{
+	border: 10px ridge #607B8B;
+	text-align: center;
+}
+#picJun {
+	height: 120px;
+	width: 150px;
+}
+#appFeatureCont {
+	width: 200px;
+	height: 300px;
+	background-color: #8EA4B1;
+	color:#E9F5FB;
+	margin: auto;
+}
+#appFeatureHead {
+	border: 10px ridge#607B8B;
+	text-align: center;
+}
+#picCont {
+	height: 100px;
+	width: 130px;
+}
+#contactsText {
+	text-align: center;
+}
+#notifText {
+	text-align: center;
+}
+#cameraText {
+	text-align: center;
+}
+#storageText {
+	text-align: center;
+}
+#videosText {
+	text-align: center;
+}
+#picNotif {
+	height: 100px;
+	width: 130px;
+}
+#picCam {
+	height: 100px;
+	width: 130px;
+}
+#picStor {
+	height: 100px;
+	width: 130px;
+}
+#picVide {
+	height: 100px;
+	width: 130px;
+}
+#dataAPICont {
+	width: 200px;
+	height: 300px;
+	background-color: #8EA4B1;
+	color:#E9F5FB;
+	margin: auto;
+}
+#dataAPIHead{
+	border: 10px ridge#607B8B;
+	text-align: center;
+}
+#picFacebk {
+	height: 100px;
+	width: 130px;
+	margin: auto;
+}
+#facebkText {
+	text-align: center;
+}
+#twiText {
+	text-align: center;
+}
+#picTwi {
+	height: 100px;
+	width: 130px;
+}
+#row1Features li {
+	list-style-type: none;
+	float: left;
+	margin-left: 0px;
+	padding-right: 10px;
+}
+#row2Features li {
+	list-style-type: none;
+	float: left;
+	margin-left: 0px;
+	padding-right: 10px;
+}
+#row1API li {
+	list-style-type: none;
+	float: left;
+	margin-left: 0px;
+	padding-right: 10px;	
+}
+#researchCont {
+	width: 200px;
+	height: 150px;
+	background-color: #8EA4B1;
+	color:#E9F5FB;
+	margin: auto;
+}
+#researchHead{
+	border: 10px ridge#607B8B;
+	text-align: center;
+}
+#researchLi {
+	list-style-type: none;
+	float: left;
+	margin-left: 0px;
+	margin-bottom: 5px;
+}
+#developerCont {
+	width: 200px;
+	height: 150px;
+	background-color: #8EA4B1;
+	color:#E9F5FB;
+	margin: auto;
+}
+#developerHead{
+	border: 10px ridge#607B8B;
+	text-align: center;
+}
+#infoUl li {
+	list-style-type: none;
+	float: left;
+	margin-left: 0px;
+	padding-right: 10px;
+}
