@@ -1,8 +1,12 @@
 /*
-	Alexander Herrera
-	AVF 1209
-	Main page JS
+    Alexander Herrera
+    AVF 1209
+    Javascript
+    Form (Redoing my CRUD app and working on links to make it more organized)
+    Not using any jQuery or JQM
 */
+
+
 window.addEventListener("DOMContentLoaded", function () {
     console.log("working");
 //Getting the elements by id.
@@ -47,8 +51,9 @@ window.addEventListener("DOMContentLoaded", function () {
     function saveInformation (key) {
        //This function is in the case if theirs no key present.
        //Meaning this will generate a new key. 
+       var id;
         if (!key) {
-            var id                = Math.floor(Math.random()*1000292002);
+            id                = Math.floor(Math.random()*1000292002);
         } else { 
             //If theirs a key this conditional takes place.
             //By setting the key to the id it replaces the information.
@@ -269,7 +274,7 @@ window.addEventListener("DOMContentLoaded", function () {
         if (askToDelete) {
             localStorage.removeItem(this.key);
             alert("Schedule was deleted");
-            window.location.reload();
+            q
         } else {
             alert("The Schedule was not deleted");
         }
