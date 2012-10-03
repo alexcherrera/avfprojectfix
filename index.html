@@ -15,6 +15,8 @@
 		<title>Launch Page</title>	
 	<!--Link CSS Style Sheet-->
 		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<!--Modernizr-->
+		<script src="js/libs/modernizr.custom.min.js"></script>
 	</head>
 	<body>
 		<div>
@@ -24,7 +26,7 @@
 					<header>
 						<h1 id="demoHead">CRUD App</h1>
 					</header>
-					<a href="=index.html" id="appLink"><img src="images/June.png" id="picJun"/></a><p id="orgApText">Original app</p>
+					<a href="formindex.html" id="appLink"><img src="images/June.png" id="picJun"/></a><p id="orgApText">Original app</p>
 				</section>
 			</fieldset>
 		</div>
@@ -38,18 +40,18 @@
 					<div>
 						<ul id="row1Features">
 						<!--Seperating the features into rows and later editing with css. There should be 3 icons in the first column (2 icons in the first and second row)-->
-							<li><a href="contLink.html" id="contLink"><img src="images/contacts.png" id="picCont"/></a>
+							<li><a href="html/contLink.html" id="contLink"><img src="images/contacts.png" id="picCont"/></a>
 							<p id="contactsText">Contacts</p></li>
-							<li><a href="notifLink.html" id="notifLink"><img src="images/Notification.png" id="picNotif"/></a>
+							<li><a href="html/notifLink.html" id="notifLink"><img src="images/Notification.png" id="picNotif"/></a>
 							<p id="notifText">Notifications</p></li>
-							<li><a href="camLink.html" id="camLink"><img src="images/camera.png" id="picCam"/></a>
+							<li><a href="html/camLink.html" id="camLink"><img src="images/camera.png" id="picCam"/></a>
 							<p id="cameraText">Camera</p></li>
 						</ul>
 						<ul id="row2Features">
 						<!--Seperating the features into rows and later editing with css. There should be 1 icons in the last row-->
-							<li><a href="storLink.html" id="storeLink"><img src="images/Storage.png" id="picStor"/></a>
+							<li><a href="html/storLink.html" id="storeLink"><img src="images/Storage.png" id="picStor"/></a>
 							<p id="storageText">Storage</p></li>
-							<li><a href="videLink.html" id="videLink"><img src="images/Video.png" id="picVide"/></a>
+							<li><a href="html/videLink.html" id="videLink"><img src="images/Video.png" id="picVide"/></a>
 							<p id="videosText">Videos</p></li>
 						</ul>
 					</div>
@@ -66,10 +68,10 @@
 					<div>
 						<ul id="row1API">
 						<!--Facebook API-->
-							<li><a href="facebookLink.html" id="facebkLink"><img src="images/Facebook.png" id="picFacebk"/></a>
+							<li><a href="html/facebookLink.html" id="facebkLink"><img src="images/Facebook.png" id="picFacebk"/></a>
 							<p id="facebkText">Facebook</p></li>
 						<!--Twitter API-->
-							<li><a href="twitterLink.html"><img src="images/Twitter.png" id="picTwi"/></a>
+							<li><a href="html/twitterLink.html"><img src="images/Twitter.png" id="picTwi"/></a>
 							<p id="twiText">Twitter</p></li>
 						</ul>
 					</div>
@@ -86,11 +88,11 @@
 					<div>
 						<ul id="researchLi">
 						<!--Week One Section-->
-							<li><a href="weekOne.html" id="wkOneTxt">Week One: Industry Research and Project Intent</a></li><br/>
+							<li><a href="html/weekOne.html" id="wkOneTxt">Week One: Industry Research and Project Intent</a></li><br/>
 						<!--Week Two Section-->
-							<li><a href="weekTwo.html" id="wkTwoTxt">Week Two: Research</a></li><br/>
+							<li><a href="html/weekTwo.html" id="wkTwoTxt">Week Two: Research</a></li><br/>
 						<!--Week Three Section-->	
-							<li><a href="weekThree.html" id="wkThreeTxt">Week Three: Research</a></li>
+							<li><a href="html/weekThree.html" id="wkThreeTxt">Week Three: Research</a></li>
 						</ul>
 					</div>
 				</section>
@@ -113,5 +115,8 @@
 				</section>
 			</fieldset>
 		</div>
+		<!--JavaScript & JQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="js/launchmain.js"></script>
 	</body>
 </html>
